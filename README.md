@@ -1,3 +1,4 @@
+
 # HR Training ROI & Skill Gap Intelligence Dashboard
 
 ## 📌 Project Overview
@@ -37,17 +38,35 @@ Deloitte | Accenture | TCS | Infosys | Wipro
 - Managers give best performance return per training
 - 4 out of 5 skill gaps cheaper to fill internally than hiring
 
+## 📁 Project 
 ## 📁 Project Structure
 hr-training-roi-analytics/
 │
-├── data/          → Dataset
-├── notebooks/     → Jupyter notebooks (Phase 1-5)
-├── sql/           → SQL queries
-└── dashboard/     → Power BI dashboard
-
+├── data/
+│   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
+│
+├── notebooks/
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_sql_analysis.ipynb
+│   ├── 04_roi_analysis.ipynb
+│   └── 05_skill_gap_model.ipynb
+│
+├── sql/
+│   └── hr_queries.sql
+│
+├── dashboard/
+│   ├── HR_Training_ROI_Dashboard.pbix
+│   └── hr_analytics_data.xlsx
+│
+└── README.md
 ## 🎯 Business Recommendations
 1. Reduce Sales training frequency — lowest ROI
 2. Increase Manager training — highest performance per session
 3. Ensure zero employees receive no training — highest attrition risk
 4. Train internally for Data Analyst, Sales Manager, Research Scientist roles
 5. Hire externally only for HR Specialist role
+=======
+# hr-training-roi-analytics
+End-to-end HR Analytics project analyzing Training ROI, Skill Gap prediction and Build vs Buy recommendations using Python, SQL and Power BI
+
