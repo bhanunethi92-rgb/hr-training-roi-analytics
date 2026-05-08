@@ -39,6 +39,9 @@ Deloitte | Accenture | TCS | Infosys | Wipro
 - 4 out of 5 skill gaps cheaper to fill internally than hiring
 
 ## 📁 Project structure
+## 📁 Project Structure
+
+```
 hr-training-roi-analytics/
 │
 ├── data/
