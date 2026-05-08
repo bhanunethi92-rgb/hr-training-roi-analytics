@@ -38,10 +38,7 @@ Deloitte | Accenture | TCS | Infosys | Wipro
 - Managers give best performance return per training
 - 4 out of 5 skill gaps cheaper to fill internally than hiring
 
-## 📁 Project 
-## 📁 Project Structure
-## 📁 Project Structure
-```
+## 📁 Project structure
 hr-training-roi-analytics/
 │
 ├── data/
